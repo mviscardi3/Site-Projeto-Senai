@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>  
+        <a href="index.html"><img src="imagens/logo.png" alt="Erro na Logo"></a>
+        <a href="Carrinho.html"><button id="cart-btn">🛒 Carrinho (<span id="cart-count">0</span>)</button></a>
+       </header>
+    <h2 style="text-align:center;">Descrição do Produto:
+    </h2>
+    <section class="produtos">
+    <div class="Produto">
+        <h3><b>Tênis</b></h3>
+        
+        <div class="container">
+            <div class="overlay"></div>
+            <img src="https://i.zst.com.br/thumbs/12/1e/33/-23553886.jpg" alt="error na imagem Tênis" class="image" style="height: auto">
+        </div>
+        <p><b>Tênis Nike | Tênis Nike Revolution 7 Masculino - Preto e Branco</b></p>
+        <p>R$ 119,90</p>
+        <button class="buy-btn" onclick="adicionarAoCarrinho('Tênis Nike | Tamanho 41', 'R$ 119,90', 'imagens/Produto2.jpg')">
+            Comprar
+        </button>
+    </div>
+    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

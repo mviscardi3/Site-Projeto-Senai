@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt=br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>  
+        <a href="index.html"><img src="imagens/logo.png" alt="Erro na Logo"></a>
+        <a href="Carrinho.html"><button id="cart-btn">🛒 Carrinho (<span id="cart-count">0</span>)</button></a>
+       </header>
+    <h2 style="text-align:center;">Descrição do Produto:
+    </h2>
+    <section class="produtos">
+    <div class="Produto">
+        <h3><b>Corrente</b></h3>
+        
+        <div class="container">
+            <div class="overlay"></div>
+            <img src="https://img.freepik.com/fotos-gratis/papel-de-parede-estetico-prateado-com-corrente_23-2149871722.jpg" alt="error na imagem de Corrente de Prata" class="image" style="height: auto">
+        </div>
+        <p><b>CORRENTE GRUMET 9mm | PRATA 925</b></p>
+        <p>R$ 79,90</p>
+        <button class="buy-btn"
+            onclick="adicionarAoCarrinho('CORRENTE GRUMET 9mm | PRATA 925', 'R$ 79,90', 'https://img.freepik.com/fotos-gratis/papel-de-parede-estetico-prateado-com-corrente_23-2149871722.jpg')">
+            Comprar
+        </button>
+    </div>
+    
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produto</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <header>  
+        <a href="index.html"><img src="imagens/logo.png" alt="Erro na Logo"></a>
+        <a href="Carrinho.html"><button id="cart-btn">🛒 Carrinho (<span id="cart-count">0</span>)</button></a>
+       </header>
+     <h2 style="text-align:center;">Descrição do Produto:
+     </h2>
+     <section class="produtos">
+        <div class="Produto">
+
+     <h3><b>Camiseta</b></h3>
+        
+        <div class="container">
+            <div class="overlay"></div>
+            <img src="imagens/camiseta.png" alt="error na imagem Camiseta" class="image" style="height: auto">
+        </div>
+        <p><b>Camiseta Premium Verde Militar Sem Estampa </b></p>
+        <p>R$ 89,90</p>
+    <button class="buy-btn" onclick="adicionarAoCarrinho('Camiseta Cor Verde | Tamanho GG', 'R$ 89,90', 'imagens/camiseta.png')">
+        Comprar
+    </button>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
